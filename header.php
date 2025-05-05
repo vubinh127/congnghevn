@@ -1,18 +1,18 @@
 <header>
     <div class="vertical-menu">
-        <div class="upper-menu">
+        <div class="upper-menu order-2 order-lg-1">
             <div class="logo">
                 <img src="/assets/images/Logo.svg" alt="">
             </div>
         </div>
 
-        <div class="menu-toggle">
+        <div class="menu-toggle order-1 order-lg-2">
             <span></span>
             <span></span>
             <span></span>
         </div>
 
-        <div class="lower-menu">
+        <div class="lower-menu order-3 order-lg-3">
             <div class="search_icon text-center">
                 <a href="">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,16 +36,16 @@
 
             <ul class="sub-menu">
                 <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox/">Thiết bị Inox 2.1 </a>
+                    <a href="">Sub Menu 1</a>
                 </li>
                 <li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-62">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-1/">Thiết bị Inox 2.2</a>
+                    <a href="">Sub Menu 2</a>
                 </li>
                 <li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-64">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-3/">Thiết bị Inox 2.3</a>
+                    <a href="">Sub Menu 3</a>
                 </li>
                 <li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-66">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-5/">Thiết bị Inox 2.4</a>
+                    <a href="">Sub Menu 4</a>
                 </li>
             </ul>
         </li>
@@ -55,16 +55,16 @@
 
             <ul class="sub-menu">
                 <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox/">Thiết bị Inox 3.1 </a>
+                    <a href="">Sub Menu 1</a>
                 </li>
                 <li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-62">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-1/">Thiết bị Inox 3.2</a>
+                    <a href="">Sub Menu 2</a>
                 </li>
                 <li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-64">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-3/">Thiết bị Inox 3.3</a>
+                    <a href="">Sub Menu 3</a>
                 </li>
                 <li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-66">
-                    <a href="https://inoxbaongoc.com.vn/product-category/thiet-bi-inox-5/">Thiết bị Inox 3.4</a>
+                    <a href="">Sub Menu 4</a>
                 </li>
             </ul>
         </li>

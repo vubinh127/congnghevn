@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/assets/css/index.css" />
@@ -33,6 +33,10 @@
                 </div>
                 <div class="watermark d-flex flex-column align-items-center">
                     CUỘN XUỐNG
+                    <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.04853 12.7467C0.658929 12.3552 0.660406 11.7221 1.05183 11.3325C1.44327 10.9429 2.07645 10.9443 2.46606 11.3358L5.0155 13.8973L5.02819 1.29219C5.02875 0.739911 5.47691 0.292647 6.02919 0.293198C6.58148 0.293749 7.02875 0.741915 7.02819 1.2942L7.0156 13.8621L9.53708 11.3523C9.92852 10.9627 10.5617 10.9642 10.9513 11.3557C11.3409 11.7471 11.3394 12.3802 10.948 12.7699L6.69546 17.0026C6.30402 17.3922 5.67086 17.3907 5.28125 16.9992L1.04853 12.7467Z" fill="white"/>
+                    </svg>
+
                 </div>
             </div>
         </div>
@@ -40,13 +44,14 @@
         <div class="about_section">
            <div class="container">
                 <div class="d-flex flex-column flex-lg-row">
-                    <div class="about_detail">
-                        <h2 class="title">Về chúng tôi</h2>
+                    <h2 class="title d-lg-none">Về chúng tôi</h2>
+                    <div class="about_detail order-2 order-lg-1">
+                        <h2 class="title d-none d-lg-block">Về chúng tôi</h2>
                         <p>Công ty TNHH Phát triển Công nghệ VN cam kết trở thành đối tác chiến lược đáng tin cậy và tiên phong trong việc tạo dựng tương lai bền vững cho ngành khai khoáng Việt Nam, mang đến các giải pháp thiết kế, thi công và xây dựng công trình mỏ than đá không chỉ chất lượng vượt trội, mà còn an toàn, hiệu quả và bảo vệ môi trường. Sứ mệnh của chúng tôi là nâng cao giá trị cộng đồng, kết nối công nghệ hiện đại với nguồn lực thiên nhiên, tạo ra những công trình đột phá thúc đẩy sự phát triển bền vững cho ngành công nghiệp khai khoáng.</p>
                         <p>Với những cam kết mạnh mẽ, tầm nhìn đột phá và giá trị bền vững, công ty TNHH Phát triển Công nghệ VN sẽ tiếp tục khẳng định vị thế là mũi tên đi đầu trong ngành công nghiệp khai khoáng, mang đến những công trình mỏ than đá chất lượng, an toàn và thân thiện với môi trường. Chúng tôi không chỉ xây dựng công trình, mà còn xây dựng tương lai cho ngành và cho cộng đồng.</p>
                         <a href="" class="btn">Tìm hiểu thêm</a>
                     </div>
-                    <div class="image">
+                    <div class="image order-1 order-lg-2">
                         <img src="/assets/images/about.jpg" alt="">
                     </div>
                 </div>
@@ -148,7 +153,7 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column flex-lg-row our_project">
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column order-2 order-lg-1">
                         <div class="small_icon">
                             <img src="/assets/images/icon2.png" alt="">
                         </div>
@@ -161,7 +166,7 @@
                             <li>Lorem ipsum dolor sit amet consectetur</li>
                         </ul>
                     </div>
-                    <div class="image">
+                    <div class="image order-1 order-lg-2">
                         <img src="/assets/images//our_project.jpg" alt="">
                     </div>
                 </div>
@@ -195,12 +200,14 @@
                             <img src="/assets/images/activity.jpg" alt="">
                         </div>
                         <div class="content">
-                            <div class="text">
-                                Xây dựng
+                            <div>
+                                <div class="text">
+                                    Xây dựng
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
-                            </p>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
                     </div>
@@ -209,12 +216,14 @@
                             <img src="/assets/images/activity.jpg" alt="">
                         </div>
                         <div class="content">
-                            <div class="text">
-                                Thương mại
+                            <div>
+                                <div class="text">
+                                    Thương mại
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
-                            </p>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
                     </div>
@@ -223,12 +232,14 @@
                             <img src="/assets/images/activity.jpg" alt="">
                         </div>
                         <div class="content">
+                           <div>
                             <div class="text">
-                                Dịch vụ
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
-                            </p>
+                                    Dịch vụ
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
+                                </p>
+                           </div>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
                     </div>
@@ -237,12 +248,14 @@
                             <img src="/assets/images/activity.jpg" alt="">
                         </div>
                         <div class="content">
-                            <div class="text">
-                                Thiện nguyện xã hội
+                            <div>
+                                <div class="text">
+                                    Thiện nguyện xã hội
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
-                            </p>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
                     </div>
@@ -251,19 +264,31 @@
                             <img src="/assets/images/activity.jpg" alt="">
                         </div>
                         <div class="content">
-                            <div class="text">
-                                Nông - LÂm NGhiệp
+                            <div>
+                                <div class="text">
+                                    Nông - LÂm NGhiệp
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur. Sit vel ullamcorper in viverra aliquet justo eu. Ante eget risus nam odio posuere est 
-                            </p>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="banner_blue_section">
+            <div class="container banner_blue">
+                <h3>Công nghệ là nền tảng, con người là trung tâm</h3>
+                <p>Hãy để Công ty TNHH Phát triển Công nghệ VN đồng hành cùng bạn</p>
+                <a href="">Bắt đầu ngay</a>
+            </div>
+        </div>
     </main>
+
+    <?php include 'footer.php'; ?>
 
 
     <script
