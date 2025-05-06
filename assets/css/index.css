@@ -1635,7 +1635,7 @@ footer .row {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
-    .detail_page .bottom_news .image{ {
+    .detail_page .bottom_news .image { 
         width: 100%;
         height: auto;
     }

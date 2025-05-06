@@ -32,7 +32,7 @@
             <a href="https://inoxbaongoc.com.vn/shop/" class="active">Trang chủ</a>
         </li>
         <li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58">
-            <a href="https://inoxbaongoc.com.vn/shop/">Tin tức</a>
+            <a href="/news.php">Tin tức</a>
 
             <ul class="sub-menu">
                 <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
@@ -51,7 +51,7 @@
         </li>
 
         <li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58">
-            <a href="https://inoxbaongoc.com.vn/shop/">Liên Hệ</a>
+            <a href="/contact.php">Liên Hệ</a>
 
             <ul class="sub-menu">
                 <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
