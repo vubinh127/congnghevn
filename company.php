@@ -247,43 +247,59 @@
                 </div>
                 
                 <div class="box-news">
-                    <div class="box_detail_news featured-news">
+                <div class="box_detail_news featured-news">
+                    <a href="#">
+                        <div class="news-image-container">
+                            <img src="/assets/images/news.jpg" alt="Cloud Portal update" class="img-fluid">
+                        </div>
+                        <div class="title_tour">
+                            <p class="news-title">Cloud Portal tuyển dụng tháng 6/2025</p>
+                            <span class="news-date">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11 0.5C16.7989 0.5 21.5 5.20101 21.5 11C21.5 16.7989 16.7989 21.5 11 21.5C5.20101 21.5 0.5 16.7989 0.5 11C0.5 5.20101 5.20101 0.5 11 0.5ZM11 2.59961C6.36082 2.59962 2.59961 6.36082 2.59961 11C2.59961 15.6392 6.36082 19.4004 11 19.4004C15.6392 19.4004 19.4004 15.6392 19.4004 11C19.4004 6.36081 15.6392 2.59961 11 2.59961ZM11.75 5.75C11.9156 5.75 12.0497 5.88421 12.0498 6.0498V9.65039C12.05 9.81575 12.1843 9.94996 12.3496 9.9502H14.9004C15.0659 9.95038 15.2002 10.0844 15.2002 10.25V11.75C15.2002 11.9156 15.0659 12.0496 14.9004 12.0498H10.25C10.0843 12.0498 9.9502 11.9157 9.9502 11.75V6.0498C9.9503 5.88423 10.0844 5.75003 10.25 5.75H11.75Z" fill="#E6E6E6"/>
+                                </svg>
+                                11:09 4/3/2025
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="small_grid">
+                    <div class="box_detail_news small-news">
                         <a href="#">
                             <div class="news-image-container">
-                                <img src="/assets/images/news.jpg" alt="Cloud Portal update" class="img-fluid">
+                                <img src="assets/images/news_2.jpg" alt="Trump tariff news" class="img-fluid">
                             </div>
                             <div class="title_tour">
-                                <p class="news-title">Cloud Portal cập nhật phiên bản mới giúp tối ưu hoá quản lý tài nguyên</p>
-                                <span class="news-description">Nằm trong lộ trình phát triển sản phẩm nhằm tối ưu trải nghiệm người dùng, Cloud ra mắt loạt tính năng mới và những cải tiến đáng chú ý dành cho tất cả người dùng sử dụng dịch vụ của Cloud Portal.</span>
+                                <p class="news-title">Change Data Capture: Đồng bộ dữ liệu tự động...</p>
+                                <span class="news-date">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 0.5C16.7989 0.5 21.5 5.20101 21.5 11C21.5 16.7989 16.7989 21.5 11 21.5C5.20101 21.5 0.5 16.7989 0.5 11C0.5 5.20101 5.20101 0.5 11 0.5ZM11 2.59961C6.36082 2.59962 2.59961 6.36082 2.59961 11C2.59961 15.6392 6.36082 19.4004 11 19.4004C15.6392 19.4004 19.4004 15.6392 19.4004 11C19.4004 6.36081 15.6392 2.59961 11 2.59961ZM11.75 5.75C11.9156 5.75 12.0497 5.88421 12.0498 6.0498V9.65039C12.05 9.81575 12.1843 9.94996 12.3496 9.9502H14.9004C15.0659 9.95038 15.2002 10.0844 15.2002 10.25V11.75C15.2002 11.9156 15.0659 12.0496 14.9004 12.0498H10.25C10.0843 12.0498 9.9502 11.9157 9.9502 11.75V6.0498C9.9503 5.88423 10.0844 5.75003 10.25 5.75H11.75Z" fill="#E6E6E6"/>
+                                    </svg>
+                                    11:09 4/3/2025
+                                </span>
                             </div>
                         </a>
                     </div>
-                    
-                    <div class="small_grid">
-                        <div class="box_detail_news small-news">
-                            <a href="#">
-                                <div class="news-image-container">
-                                    <img src="assets/images/news_2.jpg" alt="Trump tariff news" class="img-fluid">
-                                </div>
-                                <div class="title_tour">
-                                    <p class="news-title">Công ty Mỹ ngừng bán laptop vì đòn thuế của ông Trump</p>
-                                    <span class="news-date">11:09 4/3/2025</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="box_detail_news small-news">
-                            <a href="#">
-                                <div class="news-image-container">
-                                    <img src="assets/images/news_2.jpg" alt="Trump tariff news" class="img-fluid">
-                                </div>
-                                <div class="title_tour">
-                                    <p class="news-title">Công ty Mỹ ngừng bán laptop vì đòn thuế của ông Trump</p>
-                                    <span class="news-date">11:09 4/3/2025</span>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="box_detail_news small-news">
+                        <a href="#">
+                            <div class="news-image-container">
+                                <img src="assets/images/news_2.jpg" alt="Trump tariff news" class="img-fluid">
+                            </div>
+                            <div class="title_tour">
+                                
+                                <p class="news-title">Change Data Capture: Đồng bộ dữ liệu tự động...</p>
+                                <span class="news-date">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 0.5C16.7989 0.5 21.5 5.20101 21.5 11C21.5 16.7989 16.7989 21.5 11 21.5C5.20101 21.5 0.5 16.7989 0.5 11C0.5 5.20101 5.20101 0.5 11 0.5ZM11 2.59961C6.36082 2.59962 2.59961 6.36082 2.59961 11C2.59961 15.6392 6.36082 19.4004 11 19.4004C15.6392 19.4004 19.4004 15.6392 19.4004 11C19.4004 6.36081 15.6392 2.59961 11 2.59961ZM11.75 5.75C11.9156 5.75 12.0497 5.88421 12.0498 6.0498V9.65039C12.05 9.81575 12.1843 9.94996 12.3496 9.9502H14.9004C15.0659 9.95038 15.2002 10.0844 15.2002 10.25V11.75C15.2002 11.9156 15.0659 12.0496 14.9004 12.0498H10.25C10.0843 12.0498 9.9502 11.9157 9.9502 11.75V6.0498C9.9503 5.88423 10.0844 5.75003 10.25 5.75H11.75Z" fill="#E6E6E6"/>
+                                    </svg>
+                                    11:09 4/3/2025
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
 
                 <div class="bottom_news">
                     <div class="news">
