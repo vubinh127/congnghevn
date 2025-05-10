@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-3 company-info">
                 <a href="" class="footer-logo">
-                    <img src="./assets/images/Logo_footer.svg" alt="Logo">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Logo_footer.svg" alt="Logo">
                 </a>
                 <h4>Công ty TNHH Phát triển Công nghệ VN</h4>
                 <p class="footer-address">Địa chỉ: 9th floor, Sport Hotel 15, Le Van Thiem St, Hai Ba Trung Dis, Hanoi</p>

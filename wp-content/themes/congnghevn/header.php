@@ -14,7 +14,7 @@
         <div class="vertical-menu">
             <div class="upper-menu order-2 order-lg-1">
                 <div class="logo">
-                    <img src="./assets/images/Logo.svg" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Logo.svg" alt="">
                 </div>
             </div>
 
