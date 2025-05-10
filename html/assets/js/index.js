@@ -30,4 +30,19 @@ $(document).ready(function() {
         const walk = (x - startX) * 2; // Scroll speed multiplier
         $(this).scrollLeft(scrollLeft - walk);
     });
+
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        const target = $(this).attr('href');
+        if ($(target).length) {
+            const offsetTop = $(target).offset().top;
+            const screenWidth = $(window).width();
+
+            const scrollTo = screenWidth < 1200 ? offsetTop - 40 : offsetTop;
+
+            $('html, body').animate({
+                scrollTop: scrollTo
+            }, 600);
+        }
+    });
 });

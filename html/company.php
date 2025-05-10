@@ -38,11 +38,11 @@
 
         <div class="about_section">
            <div class="container">
-                <div class="d-flex flex-column flex-lg-row">
-                    <h2 class="title d-lg-none">Về chúng tôi</h2>
-                    <div class="about_detail order-2 order-lg-1">
+                <div class="d-flex flex-column flex-xl-row">
+                    <h2 class="title d-xl-none">Về chúng tôi</h2>
+                    <div class="about_detail order-2 order-xl-1">
                         <div>
-                            <h2 class="title d-none d-lg-block">Về chúng tôi</h2>
+                            <h2 class="title d-none d-xl-block">Về chúng tôi</h2>
                             <p>Công ty TNHH Phát triển Công nghệ VN cam kết trở thành đối tác chiến lược đáng tin cậy và tiên phong trong việc tạo dựng tương lai bền vững cho ngành khai khoáng Việt Nam, mang đến các giải pháp thiết kế, thi công và xây dựng công trình mỏ than đá không chỉ chất lượng vượt trội, mà còn an toàn, hiệu quả và bảo vệ môi trường.</p>
                             <a href="" class="btn">Tìm hiểu thêm</a>
                         </div>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="image order-1 order-lg-2">
+                    <div class="image order-1 order-xl-2">
                         <img src="./assets/images/about.jpg" alt="">
                     </div>
                 </div>
@@ -340,21 +340,18 @@
     <?php include 'footer.php'; ?>
 
 
-<script
-    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="./assets/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
