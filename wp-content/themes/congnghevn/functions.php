@@ -112,7 +112,6 @@ function cc_mime_types($mimes) {
 }
 add_filter('upload_mimes', 'cc_mime_types');
 
-// Hiển thị đúng file SVG trong Media Library
 function fix_svg_thumb_display() {
   echo '<style>
     .attachment-266x266, .thumbnail img {
@@ -122,3 +121,34 @@ function fix_svg_thumb_display() {
   </style>';
 }
 add_action('admin_head', 'fix_svg_thumb_display');
+
+function create_cong_ty_con_post_type() {
+    $labels = array(
+        'name'                  => 'Công ty con',
+        'singular_name'         => 'Công ty con',
+        'menu_name'             => 'Công ty con',
+        'name_admin_bar'        => 'Công ty con',
+        'add_new'               => 'Thêm mới',
+        'add_new_item'          => 'Thêm công ty con mới',
+        'new_item'              => 'Công ty con mới',
+        'edit_item'             => 'Sửa công ty con',
+        'view_item'             => 'Xem công ty con',
+        'all_items'             => 'Tất cả công ty con',
+        'search_items'          => 'Tìm kiếm công ty con',
+        'not_found'             => 'Không tìm thấy',
+        'not_found_in_trash'    => 'Không tìm thấy trong thùng rác'
+    );
+
+    $args = array(
+        'labels'                => $labels,
+        'public'                => true,
+        'has_archive'           => true,
+        'rewrite'               => array('slug' => 'cong-ty-con'),
+        'supports'              => array('title', 'editor', 'thumbnail'),
+        'menu_icon'             => 'dashicons-building',
+        'show_in_rest'          => true,
+    );
+
+    register_post_type('cong_ty_con', $args);
+}
+add_action('init', 'create_cong_ty_con_post_type');
