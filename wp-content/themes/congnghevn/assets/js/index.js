@@ -5,6 +5,16 @@ $(document).ready(function() {
         $('html').toggleClass('no-scroll');
     });
 
+    $('.search_icon').on('click', function(e) {
+        e.preventDefault();
+        $('.search_area').toggleClass('active');
+        $('html').toggleClass('no-scroll');
+    });
+
+    $('.search_area .close-search').on('click', function () {
+        $('.search_area').removeClass('active');
+    });
+
 
     const $slider = $('.list_partner');
     let isDown = false;

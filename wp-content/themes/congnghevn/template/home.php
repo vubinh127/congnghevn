@@ -8,21 +8,22 @@ get_header();
     <div class="main-content">
         <div class="hero-section" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/images/banner.jpg');">
             <div class="hero-text">
-                <h1>TỪ LÒNG ĐẤT ĐẾN NHỮNG CÁNH RỪNG<br>
-                    CHÚNG TÔI KHÔNG NGỪNG KIẾN TẠO ĐỂ CUỘC<br>
+                <h1>TỪ LÒNG ĐẤT ĐẾN NHỮNG CÁNH RỪNG
+                    CHÚNG TÔI KHÔNG NGỪNG KIẾN TẠO ĐỂ CUỘC
                     SỐNG TỐT ĐẸP HƠN TỪNG NGÀY</h1>
             </div>
-            <div class="watermark d-flex flex-column align-items-center">
-                CUỘN XUỐNG
-                <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.04853 12.7467C0.658929 12.3552 0.660406 11.7221 1.05183 11.3325C1.44327 10.9429 2.07645 10.9443 2.46606 11.3358L5.0155 13.8973L5.02819 1.29219C5.02875 0.739911 5.47691 0.292647 6.02919 0.293198C6.58148 0.293749 7.02875 0.741915 7.02819 1.2942L7.0156 13.8621L9.53708 11.3523C9.92852 10.9627 10.5617 10.9642 10.9513 11.3557C11.3409 11.7471 11.3394 12.3802 10.948 12.7699L6.69546 17.0026C6.30402 17.3922 5.67086 17.3907 5.28125 16.9992L1.04853 12.7467Z" fill="white" />
-                </svg>
-
+            <div class="watermark">
+                <a href="#about_section" class="d-flex flex-column align-items-center">
+                    CUỘN XUỐNG
+                    <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.04853 12.7467C0.658929 12.3552 0.660406 11.7221 1.05183 11.3325C1.44327 10.9429 2.07645 10.9443 2.46606 11.3358L5.0155 13.8973L5.02819 1.29219C5.02875 0.739911 5.47691 0.292647 6.02919 0.293198C6.58148 0.293749 7.02875 0.741915 7.02819 1.2942L7.0156 13.8621L9.53708 11.3523C9.92852 10.9627 10.5617 10.9642 10.9513 11.3557C11.3409 11.7471 11.3394 12.3802 10.948 12.7699L6.69546 17.0026C6.30402 17.3922 5.67086 17.3907 5.28125 16.9992L1.04853 12.7467Z" fill="white" />
+                    </svg>
+                </a>
             </div>
         </div>
     </div>
 
-    <div class="about_section">
+    <div class="about_section" id="about_section">
         <div class="container">
             <div class="d-flex flex-column flex-lg-row">
                 <h2 class="title d-lg-none">Về chúng tôi</h2>
