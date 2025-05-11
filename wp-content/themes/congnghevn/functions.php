@@ -91,3 +91,34 @@ function loadStyle(){
 
 }
 add_action('wp_enqueue_scripts', 'loadStyle');
+
+add_action('acf/init', function() {
+  if( function_exists('acf_add_options_page') ) {
+
+    acf_add_options_page(array(
+        'page_title'    => 'Theme Options',
+        'menu_title'    => 'Theme Options',
+        'menu_slug'     => 'theme-options',
+        'capability'    => 'edit_posts',
+        'redirect'      => false
+    ));
+
+  }
+});
+
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
+
+// Hiển thị đúng file SVG trong Media Library
+function fix_svg_thumb_display() {
+  echo '<style>
+    .attachment-266x266, .thumbnail img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  </style>';
+}
+add_action('admin_head', 'fix_svg_thumb_display');

@@ -2,11 +2,12 @@
 <?php //vantu_menu('footer-menu') ?>
 </main>
 <footer>
+    <?php $footer = get_field('footer', 'option') ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-3 company-info">
-                <a href="" class="footer-logo">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Logo_footer.svg" alt="Logo">
+                <a href="/" class="footer-logo">
+                    <img src="<?php echo !empty($footer['logo']['url']) ? $footer['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/Logo_footer.svg' ?>" alt="Logo">
                 </a>
                 <h4>Công ty TNHH Phát triển Công nghệ VN</h4>
                 <p class="footer-address">Địa chỉ: 9th floor, Sport Hotel 15, Le Van Thiem St, Hai Ba Trung Dis, Hanoi</p>
@@ -19,13 +20,7 @@
 
             <div class="col-lg-3 quick-links">
                 <h5>Liên kết nhanh</h5>
-                <ul>
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">Dịch vụ</a></li>
-                    <li><a href="#">Dự án</a></li>
-                    <li><a href="#">Tin tức</a></li>
-                    <li><a href="#">Liên hệ</a></li>
-                </ul>
+                <?php tech_menu('footer-menu') ?>
             </div>
 
             <div class="col-lg-3 contact-info">

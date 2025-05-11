@@ -11,10 +11,11 @@
 
 <body <?php body_class(); ?>>
     <header>
+        <?php $header = get_field('header', 'option'); ?>
         <div class="vertical-menu">
             <div class="upper-menu order-2 order-lg-1">
                 <div class="logo">
-                    <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Logo.svg" alt="">
+                    <img src="<?php echo !empty($header['logo']['url']) ? $header['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/Logo.svg' ?>">
                 </div>
             </div>
 
@@ -33,12 +34,12 @@
                     </a>
                 </div>
                 <div class="language-selector">
-                    <button>EN</button>
-                    <button class="active">VN</button>
-                    <button>中文</button>
+                    <?php echo do_shortcode('[gtranslate]'); ?>
                 </div>
             </div>
         </div>
+        <?php tech_menu('main-menu') ?>
+
         <ul class="mega-menu">
             <li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58">
                 <a href="/" class="active">Trang chủ</a>
@@ -83,4 +84,3 @@
         </ul>
     </header>
     <main>
-        <?php //vantu_menu('main-menu') ?>
