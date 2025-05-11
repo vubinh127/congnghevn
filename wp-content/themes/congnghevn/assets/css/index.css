@@ -1370,7 +1370,8 @@ main.company_page {
     font-size: 24px;
 }
 
-.contact_page .form-control {
+.contact_page .form-control,
+.contact_page .wpcf7-form-control  {
     padding: 19px 18px;
     border-radius: 12px;
     border: 2px solid var(--color-E4E7ED);
@@ -1378,15 +1379,18 @@ main.company_page {
     font-size: 16px;
     color: var(--color-8B8B8B);
     height: 56px;
+    width: 100%;
 }
 
 .contact_page .form-control:focus {
     box-shadow: unset;
 }
 
-.contact_page textarea.form-control {
+.contact_page textarea.form-control,
+.contact_page .cf-container .cf-col-12 textarea{
     resize: none;
     height: 150px;
+    width: 100%;
 }
 
 .contact_page label {
@@ -1397,7 +1401,8 @@ main.company_page {
     display: block;
 }
 
-.contact_page .submit-btn {
+.contact_page .submit-btn,
+.contact_page .wpcf7-submit{
     background-color: var(--color-1EA1F2);
     border: none;
     padding: 18px;
@@ -1406,8 +1411,23 @@ main.company_page {
     border-radius: 12px;
     font-size: 20px;
     width: 200px;
+    color: var(--color-ffffff);
+    line-height: 20px;
 }
 
+.contact_page .cf-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_page .cf-container .cf-col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.contact_page .cf-container .cf-col-12 {
+    width: 100%;
+}
 
 @media (max-width: 1200px) {
 
