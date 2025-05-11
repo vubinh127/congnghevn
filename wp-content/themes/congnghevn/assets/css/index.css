@@ -178,6 +178,65 @@ ul {
     pointer-events: auto;
 }
 
+.search_area {
+    position: fixed;
+    top: 0;
+    left: 70px;
+    display: flex;
+    height: 100vh;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: var(--color-ffffff);
+    z-index: 99;
+    width: 100%;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px;
+}
+
+.search_area .close-search {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    cursor: pointer;
+    color: var(--color-000000);
+    z-index: 100;
+}
+
+.search_area .close-search svg{
+    width: 40px;
+    height: 40px;
+}
+
+.search_area.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.search_area form {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.search_area .input-group {
+    gap: 10px;
+}
+
+.search_area .input-group button{
+    color: var(--color-ffffff);
+    background: var(--color-1EA1F2);
+    border: none;
+}
+
 .mega-menu-toggle .sub-menu {
     font-size: 22px;
     font-weight: normal;
@@ -254,13 +313,17 @@ ul {
         font-size: 13px;
     }
 
-    header .language-selector button {
+    header .language-selector a {
         padding: 0 5px;
     }
 
-    header .language-selector button:nth-child(2) {
+    header .language-selector .gtranslate_wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    header .language-selector a:nth-child(2) {
         border-left: 1px solid var(--color-404040);
-        border-right: 1px solid var(--color-404040);
     }
 
     header .menu-toggle {
@@ -293,6 +356,15 @@ ul {
 
     .mega-menu-toggle li.menu-item {
         width: 100%;
+    }
+
+    .search_are {
+        left: 0;
+    }
+
+    .search_area .close-search {
+        top: 60px;
+        right: 20px;
     }
 }
 
@@ -436,7 +508,7 @@ main.company_page {
 
 .hero-section {
     height: 100vh;
-    background-image: url('../images/banner.jpg');
+    /*background-image: url('../images/banner.jpg');*/
     background-size: cover;
     background-position: center;
     display: flex;
