@@ -8,8 +8,8 @@ get_header();
     <div class="main-content">
         <div class="hero-section" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/images/banner.jpg');">
             <div class="hero-text">
-                <h1>TỪ LÒNG ĐẤT ĐẾN NHỮNG CÁNH RỪNG
-                    CHÚNG TÔI KHÔNG NGỪNG KIẾN TẠO ĐỂ CUỘC
+                <h1>TỪ LÒNG ĐẤT ĐẾN NHỮNG CÁNH RỪNG<br>
+                    CHÚNG TÔI KHÔNG NGỪNG KIẾN TẠO ĐỂ CUỘC<br>
                     SỐNG TỐT ĐẸP HƠN TỪNG NGÀY</h1>
             </div>
             <div class="watermark">
