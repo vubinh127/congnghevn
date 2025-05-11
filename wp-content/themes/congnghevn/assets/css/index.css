@@ -137,9 +137,10 @@ header .language-selector a {
     cursor: pointer;
     white-space: nowrap;
     display: block;
+    font-weight: normal;
 }
 
-header .language-selector a.active {
+header .language-selector a.gt-current-lang {
     color: #333;
     font-weight: bold;
 }
