@@ -38,49 +38,9 @@
                 </div>
             </div>
         </div>
-        <?php tech_menu('main-menu') ?>
 
-        <ul class="mega-menu">
-            <li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58">
-                <a href="/" class="active">Trang chủ</a>
-            </li>
-            <li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58">
-                <a href="/news.php">Tin tức</a>
-
-                <ul class="sub-menu">
-                    <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
-                        <a href="">Sub Menu 1</a>
-                    </li>
-                    <li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-62">
-                        <a href="">Sub Menu 2</a>
-                    </li>
-                    <li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-64">
-                        <a href="">Sub Menu 3</a>
-                    </li>
-                    <li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-66">
-                        <a href="">Sub Menu 4</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-58">
-                <a href="/contact.php">Liên Hệ</a>
-
-                <ul class="sub-menu">
-                    <li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-61">
-                        <a href="">Sub Menu 1</a>
-                    </li>
-                    <li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-62">
-                        <a href="">Sub Menu 2</a>
-                    </li>
-                    <li id="menu-item-64" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-64">
-                        <a href="">Sub Menu 3</a>
-                    </li>
-                    <li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-66">
-                        <a href="">Sub Menu 4</a>
-                    </li>
-                </ul>
-            </li>
+        <ul class="mega-menu-toggle">
+            <?php tech_menu('main-menu') ?>
         </ul>
     </header>
     <main>

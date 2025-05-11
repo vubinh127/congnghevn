@@ -5,7 +5,6 @@
  */
 get_header();
 ?>
-<main>
     <div class="main-content">
         <div class="hero-section" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/images/banner.jpg');">
             <div class="hero-text">
@@ -268,5 +267,4 @@ get_header();
             <a href="">Bắt đầu ngay</a>
         </div>
     </div>
-</main>
 <?php get_footer();
