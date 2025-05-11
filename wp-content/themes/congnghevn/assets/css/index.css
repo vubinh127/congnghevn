@@ -1443,9 +1443,13 @@ main.company_page {
     .contact_page .banner h2 {
         left: 50%;
         transform: translateX(-50%);
-
         max-width: unset;
         width: 90%;
+    }
+
+    .contact_page .cf-container .cf-col-6 {
+        width: 100%;
+        padding: 0;
     }
 
     .contact_page .contact-form-card {
