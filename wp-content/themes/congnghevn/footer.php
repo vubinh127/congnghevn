@@ -6,7 +6,7 @@
         <div class="row">
             
             <div class="col-lg-3 company-info">
-                <a href="/" class="footer-logo">
+                <a href="<?php echo get_home_url(); ?>" class="footer-logo">
                     <img src="<?php echo !empty($footer['logo']['url']) ? $footer['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/Logo_footer.svg' ?>" alt="Logo">
                 </a>
                 <?php echo !empty($footer['name_company']) ? '<h4>'.$footer['name_company'].'</h4>' : '' ?>

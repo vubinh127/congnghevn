@@ -74,6 +74,8 @@
 
             </div>
         </div>
+
+
         <?php $subsidiary_partner = get_field('subsidiary_partner');
 
         if(!empty($subsidiary_partner['list_partners'])){ ?>
@@ -178,19 +180,21 @@
                                 </div>
                             <?php endforeach; ?>
                         </div>
-                    <?php endif; ?>
+                    <?php endif;
+                    wp_reset_postdata();
+
+                    ?>
+
                 <?php endif; ?>
 
             </div>
         </div>
-
+        <?php $subsidiary_slogan_1 = get_field('subsidiary_slogan_1'); ?>
         <div class="banner_blue_section">
             <div class="container banner_blue">
-                <h3>Đăng ký sử dụng dịch vụ</h3>
-                <p>Hãy để Công ty TNHH Phát triển Công nghệ VN đồng hành cùng bạn
-
-                </p>
-                <a href="">Đăng ký ngay</a>
+                <h3><?php echo !empty($subsidiary_slogan_1['title']) ? $subsidiary_slogan_1['title'] : '' ?></h3>
+                <p><?php echo !empty($subsidiary_slogan_1['description']) ? $subsidiary_slogan_1['description'] : '' ?></p>
+                <a href="<?php echo !empty($subsidiary_slogan_1['link_slogan']['url']) ? $subsidiary_slogan_1['link_slogan']['url'] : '' ?>">Đăng ký ngay</a>
             </div>
         </div>
     </div>
