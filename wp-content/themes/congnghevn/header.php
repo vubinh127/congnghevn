@@ -16,7 +16,9 @@
         <div class="vertical-menu">
             <div class="upper-menu order-2 order-lg-1">
                 <div class="logo">
-                    <img src="<?php echo !empty($header['logo']['url']) ? $header['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/Logo.svg' ?>">
+                    <a href="/"><img src="<?php echo !empty($header['logo']['url']) ? $header['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/Logo.svg' ?>">
+
+                    </a>
                 </div>
             </div>
 

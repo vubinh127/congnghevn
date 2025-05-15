@@ -77,15 +77,23 @@
         <?php $subsidiary_partner = get_field('subsidiary_partner');
 
         if(!empty($subsidiary_partner['list_partners'])){ ?>
+            <h2 class="title mt-4">Đối tác</h2>
+
             <div class="partner_section">
                 <div class="container">
                     <div class="list_partner">
-                        <?php
-                        foreach($subsidiary_partner['list_partners'] as $partners){ ?>
-                            <div class="image">
-                                <img src="<?php echo !empty($partners['logo']['url']) ? $partners['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/partner.png' ?>" alt="">
-                            </div>
-                        <?php } ?>
+                        <div class="swiper-wrapper">
+                            <?php
+                            foreach($subsidiary_partner['list_partners'] as $partners){ ?>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <div class="image">
+                                            <img src="<?php echo !empty($partners['logo']['url']) ? $partners['logo']['url'] : get_stylesheet_directory_uri().'/assets/images/partner.png' ?>" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            <?php } ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,6 +181,16 @@
                     <?php endif; ?>
                 <?php endif; ?>
 
+            </div>
+        </div>
+
+        <div class="banner_blue_section">
+            <div class="container banner_blue">
+                <h3>Đăng ký sử dụng dịch vụ</h3>
+                <p>Hãy để Công ty TNHH Phát triển Công nghệ VN đồng hành cùng bạn
+
+                </p>
+                <a href="">Đăng ký ngay</a>
             </div>
         </div>
     </div>

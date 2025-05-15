@@ -1067,6 +1067,18 @@ main.company_page {
     pointer-events: none;
 }
 
+.partner_section .swiper-slide {
+    width: auto;
+    flex-shrink: 0;
+    padding: 0 15px;
+}
+
+.partner_section .image img {
+    max-height: 50px;
+    display: block;
+    margin: auto;
+}
+
 .news_section {
     padding: 160px 0 140px;
     background-color: #f8f9fa;
