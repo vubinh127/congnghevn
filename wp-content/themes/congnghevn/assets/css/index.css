@@ -1220,6 +1220,7 @@ main.company_page {
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 28px;
+    height: 300px;
 }
 
 .bottom_news .news a:hover img {
@@ -1311,6 +1312,11 @@ main.company_page {
 
     .box-news {
         flex-direction: column;
+    }
+
+    .featured-news, .small-news,
+    .news-image-container {
+        height: 300px;
     }
 }
 
@@ -1812,7 +1818,7 @@ main.company_page {
     }
 
     .detail_page {
-        padding-left: 0;
+        padding: 70px 15px 120px 15px;
     }
     
 }
