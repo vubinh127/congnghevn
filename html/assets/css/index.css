@@ -861,7 +861,7 @@ main.company_page {
 }
 
 .company_page .hero-section {
-    background-image: url('../images/company_banner.jpg');
+    /*background-image: url('../images/company_banner.jpg');*/
     justify-content: start;
 }
 
